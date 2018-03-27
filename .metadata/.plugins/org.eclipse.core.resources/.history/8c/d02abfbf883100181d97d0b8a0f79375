@@ -1,0 +1,6 @@
+package lesson1;
+
+public interface Anima {
+	public void eat();
+	public void walk();
+}

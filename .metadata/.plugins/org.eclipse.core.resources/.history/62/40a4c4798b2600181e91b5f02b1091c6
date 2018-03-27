@@ -1,0 +1,12 @@
+package lesson1;
+import java.io.*;
+public class Dog extends Animal{
+	int age = 12;
+	public void eat() {
+		System.out.println("Dogs is eating");
+		System.out.println("Dogs age is " + age);
+	}
+	public void walk() {
+		System.out.println("Dogs is walking");
+	}
+}

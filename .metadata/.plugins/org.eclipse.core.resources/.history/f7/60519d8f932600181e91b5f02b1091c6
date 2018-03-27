@@ -1,0 +1,12 @@
+package lesson1;
+import java.io.*;
+import java.util.Date;
+public class test {
+
+	public static void main(String args[]) {
+		Date date = new Date();
+		System.out.println(date.getTime());
+		System.out.println(date.getDate());
+
+	}
+}

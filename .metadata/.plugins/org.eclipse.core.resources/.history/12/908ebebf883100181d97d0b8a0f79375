@@ -1,0 +1,14 @@
+package lesson1;
+import java.io.*;
+public class Dog implements Anima{
+	public static String Name = "javk";
+	public static final String DEPARTMENT = "开发人员";
+	int age = 12;
+	public void eat() {
+		System.out.println("Dogs is eating");
+		System.out.println("Dogs age is " + age);
+	}
+	public void walk() {
+		System.out.println("Dogs is walking");
+	}
+}

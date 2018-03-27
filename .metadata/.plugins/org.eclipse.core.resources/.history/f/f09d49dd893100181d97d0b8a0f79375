@@ -1,0 +1,26 @@
+package Test;
+
+public class Test {
+	public static void main(String[] args) {
+		System.out.println("123");
+	}
+}
+
+
+
+class A {
+	private int num = 100;
+	private int user_num;
+	
+	void constructor(int a) {
+		this.user_num = a;
+	}
+	
+	public boolean size() {
+		if(this.num > this.user_num) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+}

@@ -1,0 +1,10 @@
+package lesson1;
+import java.io.*;
+public class Dog extends Animal{
+	public void eat() {
+		System.out.println("Dogs is eating");
+	}
+	public void walk() {
+		System.out.println("Dogs is walking");
+	}
+}

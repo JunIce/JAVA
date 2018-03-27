@@ -1,0 +1,31 @@
+package lesson1;
+import java.util.Scanner;
+
+public class HomeWork1 {
+	private int numberLenght = 4;
+	private int[] num = new int[numberLenght];
+	
+	protected void sortArray() {
+		for(int i = 0; i < numberLenght; i++) {
+			for(int j = 0; j < numberLenght; j++) {
+				System.out.println(num[j]);
+				if(num[j] < num[j+1]) {
+					int tmp = num[j];
+					num[j] = num[j+1];
+					num[j+1] = tmp;
+				}
+			}
+		}
+	}
+	
+	
+	public static void main(String[] args) {
+//		System.out.println("请输入4个数：");
+//		Scanner i = new Scanner(System.in);
+		int[] num = {32,23,54,65,76};
+		
+		HomeWork1 work = new HomeWork1();
+		work.sortArray();
+//		System.out.println(num);
+	}
+}

@@ -1,0 +1,14 @@
+/**
+ * @author vol
+ *
+ */
+package Exercise;
+
+public class lianxi
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("hello world");
+	}
+}
+

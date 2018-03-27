@@ -1,0 +1,11 @@
+package lesson1;
+import java.util.Scanner;
+
+public class HomeWork1 {
+	private int numberLenght = 4;
+	private int[] num = new int[numberLenght];
+	
+	protected void sortArray() {
+		
+	}
+}
